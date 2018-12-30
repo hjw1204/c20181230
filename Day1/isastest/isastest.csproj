@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4EF92542-6AB5-4EC1-8B64-10EDF1809817}</ProjectGuid>
+    <ProjectGuid>{DB790F1D-C22E-4F0F-B1A8-9A76C696F643}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>hello</RootNamespace>
-    <AssemblyName>hello</AssemblyName>
+    <RootNamespace>isastest</RootNamespace>
+    <AssemblyName>isastest</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\Program.cs">
-      <Link>Program.cs</Link>
-    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

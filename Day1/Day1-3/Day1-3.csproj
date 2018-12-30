@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4EF92542-6AB5-4EC1-8B64-10EDF1809817}</ProjectGuid>
+    <ProjectGuid>{B0741E06-9192-4C71-A9E0-BF2117D07728}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>hello</RootNamespace>
-    <AssemblyName>hello</AssemblyName>
+    <RootNamespace>Day1_3</RootNamespace>
+    <AssemblyName>Day1-3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\Program.cs">
-      <Link>Program.cs</Link>
-    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
